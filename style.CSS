@@ -1,0 +1,54 @@
+body {
+  background-color: rgb(0, 0, 0);
+  font-family: Arial, sans-serif;
+  display: inline-block;
+}
+
+p {
+  margin-bottom: 0px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: ;
+}
+
+.container {
+  display: flex;
+  width: 500px;
+  height: 100%;
+  margin-top: 20px;
+  margin-left: 100%;
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 2px solid #0051ff;
+  border-radius: 50px;
+}
+
+.imagem {
+  width: 100px;
+  aspect-ratio: 1/1;
+  object-fit: fill;
+  border-radius: 50%;
+
+}
+
+.fa-download {
+  color: rgb(255, 0, 0);
+  font-size: 24px;
+}
+
+.curriculo {
+  display: flex;
+  margin: 10px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.download {
+  font-style: italic;
+}
+
+.info{
+  display: flexbox;
+  margin-left: 20px;
+}
